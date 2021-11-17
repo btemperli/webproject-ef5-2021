@@ -1,0 +1,22 @@
+.wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid darkolivegreen;
+    display: flex;
+}
+
+.card {
+    border: 2px solid cadetblue;
+    padding: 20px;
+    margin: 20px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.background-image {
+    height: 150px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
